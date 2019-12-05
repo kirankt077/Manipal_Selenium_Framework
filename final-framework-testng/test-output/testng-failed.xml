@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.training.sanity.tests.UNF017_FilterRecurringOrders">
+      <class name="com.training.sanity.tests.TC046_Add_New_Product_Save">
         <methods>
-          <include name="tearDown"/>
           <include name="validLoginTest"/>
-          <include name="setUpBeforeClass"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="setUpBeforeClass"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.UNF017_FilterRecurringOrders -->
+      </class> <!-- com.training.sanity.tests.TC046_Add_New_Product_Save -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

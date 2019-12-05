@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32563" started-at="2019-12-02T09:50:40Z" finished-at="2019-12-02T09:51:13Z">
+  <suite name="Default suite" duration-ms="32456" started-at="2019-12-03T13:42:09Z" finished-at="2019-12-03T13:42:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32563" started-at="2019-12-02T09:50:40Z" finished-at="2019-12-02T09:51:13Z">
-      <class name="com.training.sanity.tests.UNF016_DeleteOrderFrom_Cart">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.UNF016_DeleteOrderFrom_Cart@4501b7af]" name="setUpBeforeClass" is-config="true" duration-ms="16" started-at="2019-12-02T15:20:40Z" finished-at="2019-12-02T15:20:40Z">
+    <test name="Default test" duration-ms="32456" started-at="2019-12-03T13:42:09Z" finished-at="2019-12-03T13:42:41Z">
+      <class name="com.training.sanity.tests.TC046_Add_New_Product_Save">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.TC046_Add_New_Product_Save@4501b7af]" name="setUpBeforeClass" is-config="true" duration-ms="21" started-at="2019-12-03T19:12:09Z" finished-at="2019-12-03T19:12:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.UNF016_DeleteOrderFrom_Cart@4501b7af]" name="setUp" is-config="true" duration-ms="16373" started-at="2019-12-02T15:20:40Z" finished-at="2019-12-02T15:20:56Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.TC046_Add_New_Product_Save@4501b7af]" name="setUp" is-config="true" duration-ms="16186" started-at="2019-12-03T19:12:09Z" finished-at="2019-12-03T19:12:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.UNF016_DeleteOrderFrom_Cart@4501b7af]" name="validLoginTest" duration-ms="15140" started-at="2019-12-02T15:20:56Z" finished-at="2019-12-02T15:21:12Z">
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.TC046_Add_New_Product_Save@4501b7af]" name="validLoginTest" duration-ms="15226" started-at="2019-12-03T19:12:25Z" finished-at="2019-12-03T19:12:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.UNF016_DeleteOrderFrom_Cart@4501b7af]" name="tearDown" is-config="true" duration-ms="1001" started-at="2019-12-02T15:21:12Z" finished-at="2019-12-02T15:21:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.TC046_Add_New_Product_Save@4501b7af]" name="tearDown" is-config="true" duration-ms="1000" started-at="2019-12-03T19:12:40Z" finished-at="2019-12-03T19:12:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.UNF016_DeleteOrderFrom_Cart -->
+      </class> <!-- com.training.sanity.tests.TC046_Add_New_Product_Save -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

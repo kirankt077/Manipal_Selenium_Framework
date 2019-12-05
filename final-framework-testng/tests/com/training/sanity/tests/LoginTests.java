@@ -6,6 +6,8 @@ import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -49,14 +51,10 @@ public class LoginTests {
 	
 	
 	@Test
-	public void validLoginTest() {
+	public void validLoginTest() throws InterruptedException {
 		loginPOM.sendUserName("admin");
 		loginPOM.sendPassword("admin@123");
-		loginPOM.clickLoginBtn(); 
-		//driver.get("http://uniformm1.upskills.in/index.php?route=checkout/cart");
-		//driver.findElement(By.xpath("//i[contains(@class, 'fa fa-times-circle')]")).click();
-		//driver.close();
-		// screenShot.captureScreenShot("First");
-		
+		loginPOM.clickLoginBtn();
+        driver.close();
 	}
 }
